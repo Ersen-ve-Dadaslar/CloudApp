@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse,get_object_or_404
-from .models import Exam,Assignment,User
+from .models import Exam,Assignment
 
 # Create your views here. #11.ders 13 14
 def exam_detail(request):
@@ -13,6 +13,6 @@ def exam_index(request):
 def exam_delete(request):
     return HttpResponse('<b>keke delete</b>')
 def exam_update(request):
-    exams = get_object_or_404Exam.objects.all()
+
     return HttpResponse('<b>keke update</b>')
 
