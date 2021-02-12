@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^exam/', include('exam.urls')),
     url(r'^main/', include('user.urls')),
     url(r'^$',main_view ),
+    url(r'^keke/$',main_view ),
 ]
